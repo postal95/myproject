@@ -1,0 +1,32 @@
+---
+title: "C2C12 WT vs dBNIP with LLC1 conditioned media"
+author: "Benj"
+date: "5/24/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### C2C12 WT vs CNIP Protocol:
+This experiment is designed to look at how muscle with and without BNIP responds
+to the different factors and altered nutritional availability caused by tumor 
+growth. To this end, C2C12s (wt and dBIP) were grown out then seeded in 12-well
+plates at 1e5 cells per well on Day -7 (5/19/22) with normal growth media. Cells
+were then swapped to differentiation media on Day -6 (5/20/22). Differentiation
+media was swapped on Day -4 (5/22/22) and again on day Day -2 (5/24/22). On Day 
+0 (5/26/22), cells were swapped to either normal differentiation media or LLC1
+conditioned media and the day 0 plate was collected for RNA and protein.
+
+
+#### Media Conditioning Protocol:
+LLC1s cultured with growth media to confluence in T-75s, then split at 1:20 into
+10 cm3 plates. After 24 hours plated (approx 50% confluency), growth media was 
+replaced. This media was left on the cells for 48 hours before being collected.
+Collected media was diluted 1:4 with fresh DMEM to lower serum level to that of
+differentiation media and filtered to ensure no LLC1 cells were present.
+
+#### Reference Documents used to create these protocol:
+C2C12 Culture Guide 
+[REDD1 Deletion](https://pubmed.ncbi.nlm.nih.gov/34672766/)
